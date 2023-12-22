@@ -69,6 +69,8 @@ static const struct arg args[] = {
 	{ disk_used,  "%s / ",         "/"     },
 	{ disk_total, "%s | ",           "/"     },
 	{ ram_used,   "%s / ", 		       },
-	{ ram_total,  "%s ", 		       },
+	{ ram_total,  "%s | ", 		       },
+	{ battery_perc, "%s %% ", 		"BAT0"       },
+
 
 };
